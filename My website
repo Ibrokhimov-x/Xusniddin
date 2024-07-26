@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Моя Личная Веб-страница</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8ff;
+            color: #333;
+        }
+        header {
+            background-color: #0044cc;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #0033aa;
+        }
+        nav a {
+            color: #fff;
+            padding: 15px 20px;
+            text-decoration: none;
+            display: inline-block;
+        }
+        nav a:hover {
+            background-color: #002288;
+        }
+        .container {
+            padding: 20px;
+        }
+        h1, h2, h3 {
+            color: #0044cc;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        .section p {
+            line-height: 1.6;
+        }
+        .footer {
+            background-color: #0033aa;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+        .social-links {
+            background-color: #0077ff;
+            color: #fff;
+            padding: 15px;
+            border-radius: 5px;
+            text-align: center;
+        }
+        .social-links a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            display: block;
+            margin: 5px 0;
+        }
+        .social-links a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Добро пожаловать на мою личную веб-страницу</h1>
+    </header>
+    <nav>
+        <a href="#about">О себе</a>
+        <a href="#trading">Трейдинг</a>
+        <a href="#social">Социальные сети</a>
+    </nav>
+    <div class="container">
+        <div id="about" class="section">
+            <h2>О себе</h2>
+            <p><strong>Имя:</strong> Ваше Имя</p>
+            <p><strong>Фамилия:</strong> Ваша Фамилия</p>
+            <p><strong>Дата рождения:</strong> Дата Рождения</p>
+            <p><strong>Страна:</strong> Узбекистан</p>
+        </div>
+        <div id="trading" class="section">
+            <h2>Что такое трейдинг?</h2>
+            <p>Трейдинг - это процесс покупки и продажи финансовых инструментов, таких как акции, валютные пары и товары, с целью получения прибыли. Основные инструменты трейдинга включают акции (например, акции компаний), криптовалюты (такие как Bitcoin и Gold) и товары (такие как золото).</p>
+            <h3>Акции</h3>
+            <p>Акции - это долевые ценные бумаги, которые представляют собой долю в капитале компании. Владелец акции имеет право на часть прибыли компании и может участвовать в управлении.</p>
+            <h3>Криптовалюты</h3>
+            <p>Криптовалюты - это цифровые валюты, которые используют криптографию для обеспечения безопасности транзакций. Bitcoin (BTC) является одной из самых известных криптовалют.</p>
+            <h3>Золото</h3>
+            <p>Золото - это драгоценный металл, который часто используется в качестве инвестиционного актива и средства защиты от инфляции.</p>
+        </div>
+        <div id="social" class="section social-links">
+            <h2>Социальные сети</h2>
+            <p>Следите за мной в социальных сетях:</p>
+            <a href="https://www.youtube.com/channel/ВАШ_КАНАЛ" target="_blank">Мой YouTube-канал</a>
+            <a href="https://t.me/xtmwcs" target="_blank">Мой Telegram-канал</a>
+        </div>
+    </div>
+    <footer class="footer">
+        <p>&copy; 2024 Ваша Имя. Все права защищены.</p>
+    </footer>
+</body>
+</html>
